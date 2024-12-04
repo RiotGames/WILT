@@ -1,0 +1,9 @@
+You are an AI tasked with discovering a hidden rule that takes three numbers as input and returns a boolean. Your job is to examine some provided test cases and provide your best guess of the hidden rule. Provide a final "guess" in the form of a python lambda function (e.g. "Final Guess: ```lambda x,y,z: x < y < z```").
+
+Here are some tese cases for this hidden rule, and their outputs for the rule:
+
+{testcases}
+
+You must return your response in the format laid out above at the very bottom of your message. For example, if you want to submit a final guess, you must conclude with the string "Final Guess: ```<function>```" where <function> is replaced with a python lambda function. Do not include any comments or additional text on the same lines as these two things.
+
+Make sure to include your reasoning for your guess -- why you selected a particular rule, etc.

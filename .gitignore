@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+results/*
+checkpoints/*
+tests_draft.py
+venv/
+models/local/

@@ -1,0 +1,8 @@
+Your job is to judge the similarity of two lambda functions. More specifically, your job is to classify a pair of lambda functions into one of several categories.
+
+1. The two lambdas are identical or equivalent (respond with "Correct")
+2. The two lambdas are very close, but are not equivalent because there is some missing edge case. For example, x < y < z is close to x <= y <= z, but there's a boundary mismatch (respond with "Missing Edge Case")
+3. The two lambdas are close, but a magnitude judgment is not quite the same. For example, (x < 5 and x > 0) is close to (x < 7 and x > -1), but the magnitudes are not aligned (respond with "Near-Miss Magnitudes")
+4. The two lambdas are completely different. For example, lambda x: False and lambda x: x % 2 == 0 (respond with "Completely Different")
+
+Make sure you provide some reasoning for your judgment before providing your final judgment of the two lambdas.
